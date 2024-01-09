@@ -1,0 +1,100 @@
+.btn-back-to-main {
+  font-size: 20px;
+  background-color: rgb(52, 52, 52);
+  color: white;
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btn-back-to-main:hover {
+  transform: scale(1.1);
+}
+
+.all-tasks-select-container {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.all-tasks-select {
+  width: 10em;
+  font-size: 15px;
+  border-radius: 10px;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+.all-task-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  background-color: rgb(238, 238, 238);
+  padding: 20px 0px 20px 0px;
+}
+
+.each-task-container {
+  display: flex;
+  width: 70%;
+  height: fit-content;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  margin: 5px;
+  margin-left: 20px;
+  padding: 5px;
+  background-color: white;
+  color: rgb(52, 52, 52);
+  box-shadow: 1px 1px 5px;
+  word-wrap: break-word;
+}
+.title-task {
+  width: 20%;
+  border-right: 1px solid rgb(52, 52, 52);
+  font-weight: 600;
+  padding: 5px;
+}
+.discription-task {
+  width: 50%;
+  text-align: center;
+  border-right: 1px solid rgb(52, 52, 52);
+  padding: 5px;
+}
+.date-task-container {
+  display: flex;
+  width: 30%;
+}
+.date-task {
+  display: block;
+  width: 70%;
+  margin-left: 10px;
+}
+
+.delete-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+}
+.delete {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+}
+.delete > button {
+  width: 100%;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.delete > button:hover {
+  background-color: rgb(246, 66, 16);
+  border-radius: 5px;
+}
+.delete > button > img {
+  width: 100%;
+}
